@@ -2,3 +2,8 @@ C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Data\bin\Debug\Bil
 C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Data\bin\Debug\BilgeAdam.Data.pdb
 C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Data\obj\Debug\BilgeAdam.Data.dll
 C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Data\obj\Debug\BilgeAdam.Data.pdb
+C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Data\bin\Debug\BilgeAdam.Data.dll.config
+C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Data\bin\Debug\EntityFramework.dll
+C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Data\bin\Debug\EntityFramework.xml
+C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Data\bin\Debug\EntityFramework.SqlServer.xml

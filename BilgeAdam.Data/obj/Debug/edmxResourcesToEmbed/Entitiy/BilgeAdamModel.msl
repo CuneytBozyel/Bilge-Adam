@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TTSModelStoreContainer" CdmEntityContainer="BilgeAdamEntities">
+    <EntitySetMapping Name="tts_brand">
+      <EntityTypeMapping TypeName="TTSModel.tts_brand">
+        <MappingFragment StoreEntitySet="tts_brand">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tts_custumer">
+      <EntityTypeMapping TypeName="TTSModel.tts_custumer">
+        <MappingFragment StoreEntitySet="tts_custumer">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="ADDRESS" ColumnName="ADDRESS" />
+          <ScalarProperty Name="PHONE" ColumnName="PHONE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tts_device">
+      <EntityTypeMapping TypeName="TTSModel.tts_device">
+        <MappingFragment StoreEntitySet="tts_device">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="BRAND_ID" ColumnName="BRAND_ID" />
+          <ScalarProperty Name="MODEL_ID" ColumnName="MODEL_ID" />
+          <ScalarProperty Name="FORM_NUMBER" ColumnName="FORM_NUMBER" />
+          <ScalarProperty Name="EXPLANATION" ColumnName="EXPLANATION" />
+          <ScalarProperty Name="USER_ID" ColumnName="USER_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tts_model">
+      <EntityTypeMapping TypeName="TTSModel.tts_model">
+        <MappingFragment StoreEntitySet="tts_model">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tts_user">
+      <EntityTypeMapping TypeName="TTSModel.tts_user">
+        <MappingFragment StoreEntitySet="tts_user">
+          <ScalarProperty Name="USER_NAME" ColumnName="USER_NAME" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

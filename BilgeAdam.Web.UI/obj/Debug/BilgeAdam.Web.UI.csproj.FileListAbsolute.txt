@@ -71,3 +71,9 @@ C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Web.UI\bin\BilgeAd
 C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Web.UI\bin\BilgeAdam.Core.dll
 C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Web.UI\bin\BilgeAdam.Business.pdb
 C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Web.UI\bin\BilgeAdam.Core.pdb
+C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Web.UI\bin\Autofac.dll
+C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Web.UI\bin\Autofac.xml
+C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Web.UI\bin\BilgeAdam.Data.dll
+C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Web.UI\bin\BilgeAdam.Data.pdb
+C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Web.UI\bin\Autofac.Integration.Mvc.dll
+C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Web.UI\bin\Autofac.Integration.Mvc.xml

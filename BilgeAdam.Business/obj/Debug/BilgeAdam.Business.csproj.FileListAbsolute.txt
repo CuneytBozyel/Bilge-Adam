@@ -7,3 +7,7 @@ C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Business\bin\Debug
 C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Business\bin\Debug\BilgeAdam.Data.dll
 C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Business\bin\Debug\BilgeAdam.Core.pdb
 C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Business\bin\Debug\BilgeAdam.Data.pdb
+C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Business\bin\Debug\Autofac.dll
+C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Business\bin\Debug\Autofac.xml
+C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Business\bin\Debug\EntityFramework.dll
+C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Business\bin\Debug\EntityFramework.xml

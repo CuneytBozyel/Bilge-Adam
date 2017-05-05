@@ -30,8 +30,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -40,7 +51,71 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entitiy\BilgeAdamModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BilgeAdamModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entitiy\BilgeAdamModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BilgeAdamModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entitiy\BilgeAdamModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BilgeAdamModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Entitiy\tts_brand.cs">
+      <DependentUpon>BilgeAdamModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entitiy\tts_custumer.cs">
+      <DependentUpon>BilgeAdamModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entitiy\tts_device.cs">
+      <DependentUpon>BilgeAdamModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entitiy\tts_model.cs">
+      <DependentUpon>BilgeAdamModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entitiy\tts_user.cs">
+      <DependentUpon>BilgeAdamModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityPattern\BaseService.cs" />
+    <Compile Include="EntityPattern\GenericRepository.cs" />
+    <Compile Include="EntityPattern\IGenericRepository.cs" />
+    <Compile Include="EntityPattern\IUnitOfWork.cs" />
+    <Compile Include="EntityPattern\UnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <EntityDeploy Include="Entitiy\BilgeAdamModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>BilgeAdamModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="Entitiy\BilgeAdamModel.edmx.diagram">
+      <DependentUpon>BilgeAdamModel.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Entitiy\BilgeAdamModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>BilgeAdamModel.Context.cs</LastGenOutput>
+      <DependentUpon>BilgeAdamModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="Entitiy\BilgeAdamModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>BilgeAdamModel.edmx</DependentUpon>
+      <LastGenOutput>BilgeAdamModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

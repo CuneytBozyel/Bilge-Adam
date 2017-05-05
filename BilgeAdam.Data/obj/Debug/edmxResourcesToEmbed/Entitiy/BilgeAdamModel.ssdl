@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TTSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="tts_brand">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NAME" Type="nchar" MaxLength="15" />
+  </EntityType>
+  <EntityType Name="tts_custumer">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NAME" Type="nchar" MaxLength="50" Nullable="false" />
+    <Property Name="ADDRESS" Type="nchar" MaxLength="100" />
+    <Property Name="PHONE" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="tts_device">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BRAND_ID" Type="int" Nullable="false" />
+    <Property Name="MODEL_ID" Type="int" Nullable="false" />
+    <Property Name="FORM_NUMBER" Type="nchar" MaxLength="15" Nullable="false" />
+    <Property Name="EXPLANATION" Type="nchar" MaxLength="100" Nullable="false" />
+    <Property Name="USER_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tts_model">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NAME" Type="nchar" MaxLength="15" />
+  </EntityType>
+  <EntityType Name="tts_user">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="USER_NAME" Type="nchar" MaxLength="50" Nullable="false" />
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PASSWORD" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="TTSModelStoreContainer">
+    <EntitySet Name="tts_brand" EntityType="Self.tts_brand" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tts_custumer" EntityType="Self.tts_custumer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tts_device" EntityType="Self.tts_device" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tts_model" EntityType="Self.tts_model" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tts_user" EntityType="Self.tts_user" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
