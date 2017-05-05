@@ -1,52 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="TTSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-  <EntityType Name="tts_brand">
+  <EntityType Name="Basket">
     <Key>
-      <PropertyRef Name="ID" />
+      <PropertyRef Name="BasketId" />
     </Key>
-    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="NAME" Type="nchar" MaxLength="15" />
+    <Property Name="BasketId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="ProductId" Type="int" Nullable="false" />
+    <Property Name="BasketCount" Type="int" Nullable="false" />
+    <Property Name="BasketPrice" Type="int" Nullable="false" />
+    <Property Name="BasketDate" Type="date" Nullable="false" />
+    <Property Name="IsDelete" Type="int" Nullable="false" />
+    <Property Name="OrderAmount" Type="int" Nullable="false" />
   </EntityType>
-  <EntityType Name="tts_custumer">
+  <EntityType Name="Orders">
     <Key>
-      <PropertyRef Name="ID" />
+      <PropertyRef Name="OrderId" />
     </Key>
-    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="NAME" Type="nchar" MaxLength="50" Nullable="false" />
-    <Property Name="ADDRESS" Type="nchar" MaxLength="100" />
-    <Property Name="PHONE" Type="nchar" MaxLength="10" />
+    <Property Name="OrderId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="ProductId" Type="date" Nullable="false" />
+    <Property Name="ProductPrice" Type="int" Nullable="false" />
+    <Property Name="ProductCount" Type="int" Nullable="false" />
+    <Property Name="OrderAmount" Type="int" Nullable="false" />
+    <Property Name="OrderDate" Type="date" Nullable="false" />
+    <Property Name="IsDelete" Type="int" Nullable="false" />
   </EntityType>
-  <EntityType Name="tts_device">
+  <EntityType Name="Products">
     <Key>
-      <PropertyRef Name="ID" />
+      <PropertyRef Name="ProductId" />
     </Key>
-    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="BRAND_ID" Type="int" Nullable="false" />
-    <Property Name="MODEL_ID" Type="int" Nullable="false" />
-    <Property Name="FORM_NUMBER" Type="nchar" MaxLength="15" Nullable="false" />
-    <Property Name="EXPLANATION" Type="nchar" MaxLength="100" Nullable="false" />
-    <Property Name="USER_ID" Type="int" Nullable="false" />
+    <Property Name="ProductId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProductName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ProductImg" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Price" Type="int" Nullable="false" />
   </EntityType>
-  <EntityType Name="tts_model">
+  <EntityType Name="Stocks">
     <Key>
-      <PropertyRef Name="ID" />
+      <PropertyRef Name="StockId" />
     </Key>
-    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="NAME" Type="nchar" MaxLength="15" />
+    <Property Name="StockId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProductId" Type="int" Nullable="false" />
+    <Property Name="StockCount" Type="int" Nullable="false" />
   </EntityType>
-  <EntityType Name="tts_user">
+  <EntityType Name="Users">
     <Key>
-      <PropertyRef Name="ID" />
+      <PropertyRef Name="UserId" />
     </Key>
-    <Property Name="USER_NAME" Type="nchar" MaxLength="50" Nullable="false" />
-    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="PASSWORD" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="UserSurname" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="EMail" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="PhoneNumber" Type="nchar" MaxLength="11" Nullable="false" />
   </EntityType>
   <EntityContainer Name="TTSModelStoreContainer">
-    <EntitySet Name="tts_brand" EntityType="Self.tts_brand" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="tts_custumer" EntityType="Self.tts_custumer" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="tts_device" EntityType="Self.tts_device" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="tts_model" EntityType="Self.tts_model" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="tts_user" EntityType="Self.tts_user" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Basket" EntityType="Self.Basket" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Orders" EntityType="Self.Orders" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Products" EntityType="Self.Products" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Stocks" EntityType="Self.Stocks" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
   </EntityContainer>
 </Schema>

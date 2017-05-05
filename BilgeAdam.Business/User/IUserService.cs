@@ -1,14 +1,11 @@
-﻿using BilgeAdam.Data.Entitiy;
-using System;
+﻿using BilgeAdam.Business.BaseResult;
+using BilgeAdam.Data.Entitiy;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BilgeAdam.Business.User
 {
     public interface IUserService
     {
-        List<tts_user> GetAllUsers();
+        ServiceResult<List<Users>> GetAllUsers();
     }
 }

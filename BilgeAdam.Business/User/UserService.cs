@@ -1,21 +1,20 @@
-﻿using BilgeAdam.Data.Entitiy;
+﻿using BilgeAdam.Business.BaseResult;
+using BilgeAdam.Data.Entitiy;
 using BilgeAdam.Data.EntityPattern;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace BilgeAdam.Business.User
 {
-    public class UserService : BaseService<tts_user>, IUserService
+    public class UserService : BaseService<Users>, IUserService
     {
-        public List<tts_user> GetAllUsers()
+        public ServiceResult<List<Users>> GetAllUsers()
         {
-            List<tts_user> result = new List<tts_user>();
+            ServiceResult<List<Users>> result = new ServiceResult<List<Users>>();
 
             try
             {
-                var users = Repo.List().ToList();
-                result = users;
-
+                result.Result = Repo.List().ToList();
             }
             catch (System.Exception)
             {

@@ -6,8 +6,7 @@ namespace BilgeAdam.Web.UI.Controllers
     {
         public ActionResult Index()
         {
-            var alluser = UserService.GetAllUsers();
-
+          
             return View();
         }
 

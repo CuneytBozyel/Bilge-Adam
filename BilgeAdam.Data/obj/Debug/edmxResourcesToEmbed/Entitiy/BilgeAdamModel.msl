@@ -1,50 +1,62 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
   <EntityContainerMapping StorageEntityContainer="TTSModelStoreContainer" CdmEntityContainer="BilgeAdamEntities">
-    <EntitySetMapping Name="tts_brand">
-      <EntityTypeMapping TypeName="TTSModel.tts_brand">
-        <MappingFragment StoreEntitySet="tts_brand">
-          <ScalarProperty Name="ID" ColumnName="ID" />
-          <ScalarProperty Name="NAME" ColumnName="NAME" />
+    <EntitySetMapping Name="Basket">
+      <EntityTypeMapping TypeName="TTSModel.Basket">
+        <MappingFragment StoreEntitySet="Basket">
+          <ScalarProperty Name="OrderAmount" ColumnName="OrderAmount" />
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="BasketDate" ColumnName="BasketDate" />
+          <ScalarProperty Name="BasketPrice" ColumnName="BasketPrice" />
+          <ScalarProperty Name="BasketCount" ColumnName="BasketCount" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="BasketId" ColumnName="BasketId" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="tts_custumer">
-      <EntityTypeMapping TypeName="TTSModel.tts_custumer">
-        <MappingFragment StoreEntitySet="tts_custumer">
-          <ScalarProperty Name="ID" ColumnName="ID" />
-          <ScalarProperty Name="NAME" ColumnName="NAME" />
-          <ScalarProperty Name="ADDRESS" ColumnName="ADDRESS" />
-          <ScalarProperty Name="PHONE" ColumnName="PHONE" />
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="TTSModel.Orders">
+        <MappingFragment StoreEntitySet="Orders">
+          <ScalarProperty Name="IsDelete" ColumnName="IsDelete" />
+          <ScalarProperty Name="OrderDate" ColumnName="OrderDate" />
+          <ScalarProperty Name="OrderAmount" ColumnName="OrderAmount" />
+          <ScalarProperty Name="ProductCount" ColumnName="ProductCount" />
+          <ScalarProperty Name="ProductPrice" ColumnName="ProductPrice" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="OrderId" ColumnName="OrderId" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="tts_device">
-      <EntityTypeMapping TypeName="TTSModel.tts_device">
-        <MappingFragment StoreEntitySet="tts_device">
-          <ScalarProperty Name="ID" ColumnName="ID" />
-          <ScalarProperty Name="BRAND_ID" ColumnName="BRAND_ID" />
-          <ScalarProperty Name="MODEL_ID" ColumnName="MODEL_ID" />
-          <ScalarProperty Name="FORM_NUMBER" ColumnName="FORM_NUMBER" />
-          <ScalarProperty Name="EXPLANATION" ColumnName="EXPLANATION" />
-          <ScalarProperty Name="USER_ID" ColumnName="USER_ID" />
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="TTSModel.Products">
+        <MappingFragment StoreEntitySet="Products">
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="ProductImg" ColumnName="ProductImg" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="tts_model">
-      <EntityTypeMapping TypeName="TTSModel.tts_model">
-        <MappingFragment StoreEntitySet="tts_model">
-          <ScalarProperty Name="ID" ColumnName="ID" />
-          <ScalarProperty Name="NAME" ColumnName="NAME" />
+    <EntitySetMapping Name="Stocks">
+      <EntityTypeMapping TypeName="TTSModel.Stocks">
+        <MappingFragment StoreEntitySet="Stocks">
+          <ScalarProperty Name="StockCount" ColumnName="StockCount" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="StockId" ColumnName="StockId" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
-    <EntitySetMapping Name="tts_user">
-      <EntityTypeMapping TypeName="TTSModel.tts_user">
-        <MappingFragment StoreEntitySet="tts_user">
-          <ScalarProperty Name="USER_NAME" ColumnName="USER_NAME" />
-          <ScalarProperty Name="ID" ColumnName="ID" />
-          <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="TTSModel.Users">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="EMail" ColumnName="EMail" />
+          <ScalarProperty Name="UserSurname" ColumnName="UserSurname" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
