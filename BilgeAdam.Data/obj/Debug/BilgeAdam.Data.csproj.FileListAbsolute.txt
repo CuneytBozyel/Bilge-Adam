@@ -1,0 +1,5 @@
+C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Data\bin\Debug\BilgeAdam.Data.dll
+C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Data\bin\Debug\BilgeAdam.Data.pdb
+C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Data\obj\Debug\BilgeAdam.Data.csprojResolveAssemblyReference.cache
+C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Data\obj\Debug\BilgeAdam.Data.dll
+C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Data\obj\Debug\BilgeAdam.Data.pdb
