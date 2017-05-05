@@ -5,11 +5,11 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="19b44ae0a7334586a9450ef0de612bdf" Name="Diagram1">
-        <EntityTypeShape EntityType="TTSModel.tts_brand" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="TTSModel.tts_custumer" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="TTSModel.tts_device" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="TTSModel.tts_model" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="TTSModel.tts_user" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TTSModel.Basket" Width="1.5" PointX="4" PointY="1.5" IsExpanded="false" />
+        <EntityTypeShape EntityType="TTSModel.Orders" Width="1.5" PointX="2.25" PointY="0.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="TTSModel.Products" Width="1.5" PointX="4" PointY="0.75" IsExpanded="false" />
+        <EntityTypeShape EntityType="TTSModel.Stocks" Width="1.5" PointX="2.25" PointY="1.5" IsExpanded="false" />
+        <EntityTypeShape EntityType="TTSModel.Users" Width="1.5" PointX="0.5" PointY="0.75" IsExpanded="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

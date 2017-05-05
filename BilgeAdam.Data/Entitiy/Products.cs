@@ -12,9 +12,11 @@ namespace BilgeAdam.Data.Entitiy
     using System;
     using System.Collections.Generic;
     
-    public partial class tts_brand
+    public partial class Products
     {
-        public int ID { get; set; }
-        public string NAME { get; set; }
+        public int ProductId { get; set; }
+        public string ProductName { get; set; }
+        public string ProductImg { get; set; }
+        public int Price { get; set; }
     }
 }

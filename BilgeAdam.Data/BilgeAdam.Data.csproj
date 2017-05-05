@@ -51,6 +51,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entitiy\Basket.cs">
+      <DependentUpon>BilgeAdamModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Entitiy\BilgeAdamModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -66,19 +69,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BilgeAdamModel.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Entitiy\tts_brand.cs">
+    <Compile Include="Entitiy\Orders.cs">
       <DependentUpon>BilgeAdamModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Entitiy\tts_custumer.cs">
+    <Compile Include="Entitiy\Products.cs">
       <DependentUpon>BilgeAdamModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Entitiy\tts_device.cs">
+    <Compile Include="Entitiy\Stocks.cs">
       <DependentUpon>BilgeAdamModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Entitiy\tts_model.cs">
-      <DependentUpon>BilgeAdamModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Entitiy\tts_user.cs">
+    <Compile Include="Entitiy\Users.cs">
       <DependentUpon>BilgeAdamModel.tt</DependentUpon>
     </Compile>
     <Compile Include="EntityPattern\BaseService.cs" />

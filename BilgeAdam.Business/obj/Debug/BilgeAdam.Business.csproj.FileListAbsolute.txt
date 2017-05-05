@@ -11,3 +11,16 @@ C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Business\bin\Debug
 C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Business\bin\Debug\Autofac.xml
 C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Business\bin\Debug\EntityFramework.dll
 C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Business\bin\Debug\EntityFramework.xml
+C:\Users\Cuneyt\Desktop\Bilge-Adam\BilgeAdam.Business\bin\Debug\BilgeAdam.Business.dll
+C:\Users\Cuneyt\Desktop\Bilge-Adam\BilgeAdam.Business\bin\Debug\BilgeAdam.Business.pdb
+C:\Users\Cuneyt\Desktop\Bilge-Adam\BilgeAdam.Business\bin\Debug\Autofac.dll
+C:\Users\Cuneyt\Desktop\Bilge-Adam\BilgeAdam.Business\bin\Debug\BilgeAdam.Core.dll
+C:\Users\Cuneyt\Desktop\Bilge-Adam\BilgeAdam.Business\bin\Debug\BilgeAdam.Data.dll
+C:\Users\Cuneyt\Desktop\Bilge-Adam\BilgeAdam.Business\bin\Debug\EntityFramework.dll
+C:\Users\Cuneyt\Desktop\Bilge-Adam\BilgeAdam.Business\bin\Debug\BilgeAdam.Core.pdb
+C:\Users\Cuneyt\Desktop\Bilge-Adam\BilgeAdam.Business\bin\Debug\BilgeAdam.Data.pdb
+C:\Users\Cuneyt\Desktop\Bilge-Adam\BilgeAdam.Business\bin\Debug\Autofac.xml
+C:\Users\Cuneyt\Desktop\Bilge-Adam\BilgeAdam.Business\bin\Debug\EntityFramework.xml
+C:\Users\Cuneyt\Desktop\Bilge-Adam\BilgeAdam.Business\obj\Debug\BilgeAdam.Business.csprojResolveAssemblyReference.cache
+C:\Users\Cuneyt\Desktop\Bilge-Adam\BilgeAdam.Business\obj\Debug\BilgeAdam.Business.dll
+C:\Users\Cuneyt\Desktop\Bilge-Adam\BilgeAdam.Business\obj\Debug\BilgeAdam.Business.pdb

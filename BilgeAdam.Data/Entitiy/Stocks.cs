@@ -12,9 +12,10 @@ namespace BilgeAdam.Data.Entitiy
     using System;
     using System.Collections.Generic;
     
-    public partial class tts_model
+    public partial class Stocks
     {
-        public int ID { get; set; }
-        public string NAME { get; set; }
+        public int StockId { get; set; }
+        public int ProductId { get; set; }
+        public int StockCount { get; set; }
     }
 }

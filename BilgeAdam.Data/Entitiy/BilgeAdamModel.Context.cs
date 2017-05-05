@@ -25,10 +25,10 @@ namespace BilgeAdam.Data.Entitiy
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<tts_brand> tts_brand { get; set; }
-        public virtual DbSet<tts_custumer> tts_custumer { get; set; }
-        public virtual DbSet<tts_device> tts_device { get; set; }
-        public virtual DbSet<tts_model> tts_model { get; set; }
-        public virtual DbSet<tts_user> tts_user { get; set; }
+        public virtual DbSet<Basket> Basket { get; set; }
+        public virtual DbSet<Orders> Orders { get; set; }
+        public virtual DbSet<Products> Products { get; set; }
+        public virtual DbSet<Stocks> Stocks { get; set; }
+        public virtual DbSet<Users> Users { get; set; }
     }
 }

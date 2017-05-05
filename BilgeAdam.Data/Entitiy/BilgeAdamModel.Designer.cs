@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Data\Entitiy\BilgeAdamModel.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\Cuneyt\Desktop\Bilge-Adam\BilgeAdam.Data\Entitiy\BilgeAdamModel.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

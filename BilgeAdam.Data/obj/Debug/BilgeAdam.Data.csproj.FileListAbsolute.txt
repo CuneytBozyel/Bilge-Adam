@@ -7,3 +7,13 @@ C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Data\bin\Debug\Ent
 C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Data\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Data\bin\Debug\EntityFramework.xml
 C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Cuneyt\Desktop\Bilge-Adam\BilgeAdam.Data\bin\Debug\BilgeAdam.Data.dll.config
+C:\Users\Cuneyt\Desktop\Bilge-Adam\BilgeAdam.Data\bin\Debug\BilgeAdam.Data.dll
+C:\Users\Cuneyt\Desktop\Bilge-Adam\BilgeAdam.Data\bin\Debug\BilgeAdam.Data.pdb
+C:\Users\Cuneyt\Desktop\Bilge-Adam\BilgeAdam.Data\bin\Debug\EntityFramework.dll
+C:\Users\Cuneyt\Desktop\Bilge-Adam\BilgeAdam.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Cuneyt\Desktop\Bilge-Adam\BilgeAdam.Data\bin\Debug\EntityFramework.xml
+C:\Users\Cuneyt\Desktop\Bilge-Adam\BilgeAdam.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Cuneyt\Desktop\Bilge-Adam\BilgeAdam.Data\obj\Debug\BilgeAdam.Data.csprojResolveAssemblyReference.cache
+C:\Users\Cuneyt\Desktop\Bilge-Adam\BilgeAdam.Data\obj\Debug\BilgeAdam.Data.dll
+C:\Users\Cuneyt\Desktop\Bilge-Adam\BilgeAdam.Data\obj\Debug\BilgeAdam.Data.pdb

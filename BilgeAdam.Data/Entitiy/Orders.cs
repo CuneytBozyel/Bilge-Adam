@@ -12,11 +12,15 @@ namespace BilgeAdam.Data.Entitiy
     using System;
     using System.Collections.Generic;
     
-    public partial class tts_custumer
+    public partial class Orders
     {
-        public int ID { get; set; }
-        public string NAME { get; set; }
-        public string ADDRESS { get; set; }
-        public string PHONE { get; set; }
+        public int OrderId { get; set; }
+        public int UserId { get; set; }
+        public System.DateTime ProductId { get; set; }
+        public int ProductPrice { get; set; }
+        public int ProductCount { get; set; }
+        public int OrderAmount { get; set; }
+        public System.DateTime OrderDate { get; set; }
+        public int IsDelete { get; set; }
     }
 }

@@ -12,13 +12,15 @@ namespace BilgeAdam.Data.Entitiy
     using System;
     using System.Collections.Generic;
     
-    public partial class tts_device
+    public partial class Basket
     {
-        public int ID { get; set; }
-        public int BRAND_ID { get; set; }
-        public int MODEL_ID { get; set; }
-        public string FORM_NUMBER { get; set; }
-        public string EXPLANATION { get; set; }
-        public int USER_ID { get; set; }
+        public int BasketId { get; set; }
+        public int UserId { get; set; }
+        public int ProductId { get; set; }
+        public int BasketCount { get; set; }
+        public int BasketPrice { get; set; }
+        public System.DateTime BasketDate { get; set; }
+        public int IsDelete { get; set; }
+        public int OrderAmount { get; set; }
     }
 }

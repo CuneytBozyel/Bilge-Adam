@@ -12,10 +12,13 @@ namespace BilgeAdam.Data.Entitiy
     using System;
     using System.Collections.Generic;
     
-    public partial class tts_user
+    public partial class Users
     {
-        public string USER_NAME { get; set; }
-        public int ID { get; set; }
-        public string PASSWORD { get; set; }
+        public int UserId { get; set; }
+        public string UserName { get; set; }
+        public string UserSurname { get; set; }
+        public string EMail { get; set; }
+        public string PhoneNumber { get; set; }
+        public string Password { get; set; }
     }
 }

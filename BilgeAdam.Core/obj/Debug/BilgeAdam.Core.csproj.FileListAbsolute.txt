@@ -2,3 +2,8 @@ C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Core\bin\Debug\Bil
 C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Core\bin\Debug\BilgeAdam.Core.pdb
 C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Core\obj\Debug\BilgeAdam.Core.dll
 C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Core\obj\Debug\BilgeAdam.Core.pdb
+C:\Users\Cuneyt\Desktop\Bilge-Adam\BilgeAdam.Core\bin\Debug\BilgeAdam.Core.dll
+C:\Users\Cuneyt\Desktop\Bilge-Adam\BilgeAdam.Core\bin\Debug\BilgeAdam.Core.pdb
+C:\Users\Cuneyt\Desktop\Bilge-Adam\BilgeAdam.Core\obj\Debug\BilgeAdam.Core.csprojResolveAssemblyReference.cache
+C:\Users\Cuneyt\Desktop\Bilge-Adam\BilgeAdam.Core\obj\Debug\BilgeAdam.Core.dll
+C:\Users\Cuneyt\Desktop\Bilge-Adam\BilgeAdam.Core\obj\Debug\BilgeAdam.Core.pdb
