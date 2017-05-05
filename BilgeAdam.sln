@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{76F154EF-1EB8-40C1-AD26-D5C90EC57901}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{DC24043B-66E2-42BC-B70A-5FD984D497F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{0EEEEE60-568F-43F7-8637-1B293B6C7658}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logging", "Logging", "{705D8325-3ECA-460B-A704-7A442C33DFE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{57FD8C36-CE02-41C8-80D9-7B84F7484FAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam", "BilgeAdam\BilgeAdam.csproj", "{C9C6B059-5B00-4B99-ADBE-0BEE43A1933F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.Data", "BilgeAdam.Data\BilgeAdam.Data.csproj", "{2F5A0BEE-A86D-4DFD-BA6E-5251B8CFF1B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.Core", "BilgeAdam.Core\BilgeAdam.Core.csproj", "{28B9E860-194D-48BA-9A13-3D17EC51AAA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.Business", "BilgeAdam.Business\BilgeAdam.Business.csproj", "{2FFC3B5E-FA24-4EF9-A4ED-EEA94A2583DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9C6B059-5B00-4B99-ADBE-0BEE43A1933F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9C6B059-5B00-4B99-ADBE-0BEE43A1933F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9C6B059-5B00-4B99-ADBE-0BEE43A1933F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9C6B059-5B00-4B99-ADBE-0BEE43A1933F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F5A0BEE-A86D-4DFD-BA6E-5251B8CFF1B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F5A0BEE-A86D-4DFD-BA6E-5251B8CFF1B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F5A0BEE-A86D-4DFD-BA6E-5251B8CFF1B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F5A0BEE-A86D-4DFD-BA6E-5251B8CFF1B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28B9E860-194D-48BA-9A13-3D17EC51AAA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28B9E860-194D-48BA-9A13-3D17EC51AAA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28B9E860-194D-48BA-9A13-3D17EC51AAA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28B9E860-194D-48BA-9A13-3D17EC51AAA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FFC3B5E-FA24-4EF9-A4ED-EEA94A2583DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FFC3B5E-FA24-4EF9-A4ED-EEA94A2583DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FFC3B5E-FA24-4EF9-A4ED-EEA94A2583DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FFC3B5E-FA24-4EF9-A4ED-EEA94A2583DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C9C6B059-5B00-4B99-ADBE-0BEE43A1933F} = {57FD8C36-CE02-41C8-80D9-7B84F7484FAA}
+		{2F5A0BEE-A86D-4DFD-BA6E-5251B8CFF1B5} = {0EEEEE60-568F-43F7-8637-1B293B6C7658}
+		{28B9E860-194D-48BA-9A13-3D17EC51AAA8} = {DC24043B-66E2-42BC-B70A-5FD984D497F6}
+		{2FFC3B5E-FA24-4EF9-A4ED-EEA94A2583DC} = {76F154EF-1EB8-40C1-AD26-D5C90EC57901}
+	EndGlobalSection
+EndGlobal
