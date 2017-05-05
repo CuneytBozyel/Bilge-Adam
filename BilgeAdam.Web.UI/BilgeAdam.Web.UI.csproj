@@ -246,6 +246,16 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BilgeAdam.Business\BilgeAdam.Business.csproj">
+      <Project>{98733329-3db4-43f8-9b21-3c02b45c459b}</Project>
+      <Name>BilgeAdam.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BilgeAdam.Core\BilgeAdam.Core.csproj">
+      <Project>{95d92066-4fba-4191-9e90-58be9973577c}</Project>
+      <Name>BilgeAdam.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

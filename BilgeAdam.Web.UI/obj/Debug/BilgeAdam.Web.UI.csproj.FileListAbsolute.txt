@@ -67,3 +67,7 @@ C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Web.UI\bin\Microso
 C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Web.UI\obj\Debug\BilgeAdam.Web.UI.csprojResolveAssemblyReference.cache
 C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Web.UI\obj\Debug\BilgeAdam.Web.UI.dll
 C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Web.UI\obj\Debug\BilgeAdam.Web.UI.pdb
+C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Web.UI\bin\BilgeAdam.Business.dll
+C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Web.UI\bin\BilgeAdam.Core.dll
+C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Web.UI\bin\BilgeAdam.Business.pdb
+C:\Users\cuneyt.bozyel\Desktop\BilgeAdam\Bilge-Adam\BilgeAdam.Web.UI\bin\BilgeAdam.Core.pdb

@@ -42,6 +42,16 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BilgeAdam.Core\BilgeAdam.Core.csproj">
+      <Project>{95d92066-4fba-4191-9e90-58be9973577c}</Project>
+      <Name>BilgeAdam.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BilgeAdam.Data\BilgeAdam.Data.csproj">
+      <Project>{df3acad3-1c72-46c8-bfe2-966040494757}</Project>
+      <Name>BilgeAdam.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
